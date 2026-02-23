@@ -99,7 +99,3 @@ sudo systemctl start awg-quick@awg0
 sudo systemctl status awg-quick@awg0
 
 ```
-
----
-
-Хочешь, я напишу bash-скрипт, который реализует механизм **Kill Switch** через `nftables` или `iptables`, чтобы при случайном падении интерфейса `awg0` твой сервер не начал отправлять трафик напрямую в открытую сеть?
